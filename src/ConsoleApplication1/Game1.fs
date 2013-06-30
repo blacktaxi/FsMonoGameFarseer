@@ -96,6 +96,11 @@ type Game1 () as this =
         if kbState.IsKeyDown(Keys.A) then circleBody.ApplyTorque(-20.0f)
         if kbState.IsKeyDown(Keys.D) then circleBody.ApplyTorque(20.0f)
 
+        if kbState.IsKeyDown(Keys.R) then 
+            circleBody.Position <- ConvertUnits.ToSimUnits(screenCenter) + new Vector2(0.0f, -1.5f)
+            circleBody.LinearVelocity <- Vector2.Zero
+            circleBody.AngularVelocity <- 0.0f
+
         if kbState.IsKeyDown(Keys.Space) then
             circleBody.ApplyLinearImpulse(new Vector2(0.0f, -1.0f))
 
