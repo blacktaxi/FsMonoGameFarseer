@@ -1,0 +1,3 @@
+[submodule "external/FarseerPhysics"]
+	path = external/FarseerPhysics
+	url = git@github.com:blacktaxi/FarseerPhysics.git
