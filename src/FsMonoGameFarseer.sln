@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.fsproj", "{9B7BDDA7-36BB-406A-A59A-89BE1D3C9854}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HelloWorld", "HelloWorld\HelloWorld.fsproj", "{9B7BDDA7-36BB-406A-A59A-89BE1D3C9854}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farseer Physics MonoGame", "..\external\FarseerPhysics\SourceFiles\Farseer Physics MonoGame.csproj", "{A4610E4C-DD34-428B-BABB-779CA0B5993A}"
 EndProject
